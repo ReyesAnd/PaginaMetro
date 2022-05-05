@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+body{
+	background: url(../Imagenes/fondo.jpg);
+	background-repeat: no-repeat; background-attachment: fixed; 
+	background-size: 100% 100%; background-position: center center;	
+}
+
+.divlogo{
+	padding: 0;
+}
+
+.logo{
+	width: 20%; 
+	float: right;
+	position: relative; right: 11%;
+	margin-top: 0.1%;
+}
+
+.menu{
+	width: 70%;
+	height: 45px;
+	background-color: #C4C4C4;
+	position: relative; top: 90px; left: 15.1%; 
+	padding-top: 20px; 
+	box-shadow: 2px 2px rgba(0,0,0,.1);width: 70%;
+}
+
+.menu li{
+	display: inline;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.menu li a{
+	color: #0068B0;
+	padding: 15px;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.cuerpo{
+	border: 3px solid #0068B0;
+	position: relative; top: 120px; left: 14%;
+	border-collapse: collapse;
+	margin-bottom: 30px;
+}
+
+.cuerpo img{
+	border-bottom: 3px solid #0068B0;
+}
+
+.contacto{
+	background: rgba(0,142,200,0.2);
+}
+
+.contacto p{
+	font-size: 17px;
+	padding-left: 10px;
+	margin: 5px;
+}
+
+.contacto h2, .button{
+	font-size: 18px;
+	color: white;
+	background: #0095D2;
+	text-align: center;
+	border: 3px outset #0075A5;
+	box-shadow: -1px -1px rgba(0,0,0,.1);
+	padding: 5px;
+}
+
+.contacto h2{
+	width: 85%;
+	position: relative; left: 6%;
+}
+
+.contacto .seleccion{
+	color: white;
+	background: #0095D2;
+	font-size: 13px;
+}
+
+.contacto textarea{
+	width: 55%;
+	height: 55%;
+	color: black;
+	background: #0095D2;
+	font-size: 13px;
+}
+
+:focus::-webkit-input-placeholder{color:transparent;}
+	::-webkit-input-placeholder { color: black; } 
+
+:-moz-placeholder { /* Firefox 18- */ color: black; } 
+
+::-moz-placeholder { /* Firefox 19+ */ color: black; } 
+
+:-ms-input-placeholder { color: black; }
+
+.contacto h3{
+	font-size: 18px;
+	color: black;
+}
+
+.contacto h4{
+	font-size: 15px;
+	color: white;
+}
+
+.contacto h3, h4, input{
+	position: relative; bottom: 175px; left: 60%;
+	display: inline;
+}
